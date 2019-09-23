@@ -20,7 +20,6 @@ Exports data into a .csv file.
 
  **How to change/update team players list** 
  
-<br/>
 Change through config.py <br/>
 Add/remove players from players_list array <br/>
 <br/>
@@ -28,7 +27,6 @@ Add/remove players from players_list array <br/>
 
  **Automatic addition functions** 
  
-<br/>
 Each 'FG' gets instantly added to 'FGA' <br/>
 Each '3FG' gets instantly added to '3FGA' <br/>
 Each 'OREB' and 'DREB' instantly gets added to 'TREB' <br/>
