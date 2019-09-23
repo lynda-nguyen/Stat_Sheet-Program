@@ -17,13 +17,13 @@ Intended for live games or watching film. *Actions* are columns of the Stat Shee
 Exports data into a .csv file.
 <br/>
 <br/>
- ** How to change/update team players list ** 
+ **How to change/update team players list** 
 <br/>
 Change through config.py <br/>
 Add/remove players from players_list array <br/>
 <br/>
 <br/>
- ** Automatic addition functions ** 
+ **Automatic addition functions** 
 <br/>
 Each 'FG' gets instantly added to 'FGA' <br/>
 Each '3FG' gets instantly added to '3FGA' <br/>
