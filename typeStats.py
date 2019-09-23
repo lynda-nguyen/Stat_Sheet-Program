@@ -6,14 +6,14 @@ def dateInput():
     isValid = False
     retDateTime = None
     while not isValid:
-        print("Please start by recording the date in the format mm/dd/yyyy")
+        print("Please start by recording the date in the format mm/dd/yyyy:")
         date = input("Please type the film date: ")
         try:
             month,day,year = date.split('/')
             retDateTime = datetime.datetime(int(year), int(month), int(day))
             isValid = True
         except ValueError:
-            print("Date was not in valid format")
+            print("Date was not in valid format!")
             isValid = False
     return retDateTime
 
@@ -41,7 +41,7 @@ def exportData(df, date):
     df.to_csv(r'./' + date_time)
 
 def recordData(df):
-    print("type back to return back to the menu at anytime ")
+    print("Type 'back' to return back to the menu at anytime ")
     def inputInitials():
         initials = input("Please input the players initials: ").upper()
         while initials not in config.players_list and (initials != 'BACK' and initials != 'EXIT'):
@@ -110,7 +110,7 @@ def main():
                 elif (ret == 'BACK'):
                     menu()
         else:
-            print('There appears to be a typo please try again')
+            print('There appears to be a typo, please try again.')
             menu()
         command = input('Please type a command: ')
     exportData(df, dateTime)
