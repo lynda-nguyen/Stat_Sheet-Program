@@ -22,7 +22,6 @@ Exports data into a .csv file.
 <br/>Change through config.py <br/>
 Add/remove players from players_list array <br/>
 <br/>
-<br/>
 
  **Automatic addition functions** 
 <br/>Each 'FG' gets instantly added to 'FGA' <br/>
