@@ -19,14 +19,12 @@ Exports data into a .csv file.
 <br/>
 
  **How to change/update team players list** 
- 
 Change through config.py <br/>
 Add/remove players from players_list array <br/>
 <br/>
 <br/>
 
  **Automatic addition functions** 
- 
 Each 'FG' gets instantly added to 'FGA' <br/>
 Each '3FG' gets instantly added to '3FGA' <br/>
 Each 'OREB' and 'DREB' instantly gets added to 'TREB' <br/>
