@@ -12,6 +12,7 @@ Intended for live games or watching film. *Actions* are columns of the Stat Shee
 4. Look Up Team 
 5. Look Up Actions
 6. Change Date
+<br/>
 -- To exit entire program type 'exit' --
 <br/>
 Exports data into a .csv file.
